@@ -1,4 +1,3 @@
-import 'dotenv/config';
 import { User } from "@/types/user"
 
 export async function fetchUsers(): Promise<User[]> {
